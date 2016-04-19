@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.MainActivity">
+    <!-- "Filter", should appear as action button if possible -->
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@drawable/filter"
+        android:title="@string/action_filter"
+        app:showAsAction="ifRoom"/>
+    <!--<group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_pop"
+            android:title="@string/action_popular"
+            android:defaultValue="@string/pref_result_popular"
+            app:showAsAction="ifRoom"/>
+
+
+        <item
+            android:id="@+id/action_hr"
+            android:title="@string/action_highrtd"
+            android:defaultValue="@string/pref_result_highrtd"
+            app:showAsAction="ifRoom"/>
+    </group>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" /> -->
+</menu>

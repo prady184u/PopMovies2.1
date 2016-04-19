@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ListPreference
+        android:title="@string/pref_result_label"
+        android:key="@string/pref_result_key"
+        android:defaultValue="@string/pref_result_default"
+        android:entries="@array/pref_result_array"
+        android:entryValues="@array/pref_units_result_alias"
+        />
+</PreferenceScreen>

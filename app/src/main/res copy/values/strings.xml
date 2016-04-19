@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">PopMovies</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_movie_detail">MovieDetailActivity</string>
+    <string name="title_activity_filter">FilterActivity</string>
+    <string name="action_share">share</string>
+    <string name="action_filter">filter</string>
+    <string name="action_favorite">Fav</string>
+    <string name="action_popular">Popularity</string>
+    <string name="action_highrtd">Highly rated</string>
+
+
+    <string name="pref_result_label">Sort by</string>
+
+    <string name="pref_result_key" translatable="false">sort_by</string>
+    <!-- options to shwo for user-->
+    <string-array name="pref_result_array">
+        <item>Popularity</item>
+        <item>Highly rated</item>
+        <item>Favourite</item>
+    </string-array>
+    <!-- values-->
+    <string-array name="pref_units_result_alias">
+        <item>popularity.desc</item>
+        <item>vote_average.desc</item>
+        <item>fav</item>
+    </string-array>
+
+    <string name="pref_result_default" translatable="false">popularity.desc</string>
+
+    <string name="pref_result_popular" translatable="false">popularity.desc</string>
+
+    <string name="pref_result_highrtd" translatable="false">vote_average.desc</string>
+    <string name="pref_result_fav" translatable="false">fav</string>
+
+
+</resources>
+
